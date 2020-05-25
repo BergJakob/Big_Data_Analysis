@@ -1,0 +1,26 @@
+---
+title: "Big Data Analysis"
+author: "Jakob Berg"
+date: "25 5 2020"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+![](C:\Users\bergj\Desktop\Uni\Bachelor\Politikwissenschaft\Methoden\Big_Data_Analysis\Exercises\01\big_data_rmd_image.jpg)
+
+## **Expectations for the course**  
+* I have different expections to the upcomimg course seperated in two areas:  
+  + At first I basically just want to improve my R skills and learn new things regarding coding and setting up a daily workflow whilst working in data analysis
+  + Secondly I look forward to hear and learn about big data analysis, its possibilities and outputs and ways to deal with volume, velocity and variety as central characteristics of big data.[^1] Moreover I’m very interested in the history of Big Data and how the increase of data amounts generated in the modern world affects the economy. Furthermore the question how the humanity can benefit from analysing and working with big data and especially how big data can be used to estimate the future is highly interesting. [^2]
+
+[^1]: https://web.archive.org/web/20140423230830/http://strata.oreilly.com/2012/01/what-is-big-data.html.↩
+
+[^2]: Nate Silver: Die Berechnung der Zukunft. Wilhelm Heyne Verlag. München: 2013.↩
+
+
