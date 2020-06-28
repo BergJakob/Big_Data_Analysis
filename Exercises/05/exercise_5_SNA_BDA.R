@@ -47,9 +47,25 @@ imdb_movie_data %>%
 #4 
 
 imdb_movie_data %>% 
-  group_by(rating) %>% 
-  summarise(max_rating_title = max(title)) %>% 
-  arrange(desc(rating))
+  group_by(votes) %>% 
+  summarise(max_votes_title = max(title)) %>% 
+  arrange(desc(votes))
+
+#5
+
+imdb_movie_data %>% 
+  filter(year == 2016) %>%
+  group_by(revenue_million) %>%
+  summarise(max_revenue_million_title = max(title)) %>% 
+  arrange(desc(revenue_million))
+
+#6
+
+imdb_movie_data %>%
+  group_by(year) %>%
+  summarise(mean_revenue_per_year = sum(revenue_million, na.rm = TRUE))
+
+  
 
 
 
